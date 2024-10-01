@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "570098911254",
+    "project_id": "iniciose-586af",
+    "storage_bucket": "iniciose-586af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570098911254:android:ab0f61fe371375a9fb8d37",
+        "android_client_info": {
+          "package_name": "com.example.iniciose"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf5LJuSndm_JuPKRQnhREbMA4d0qXa8tI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

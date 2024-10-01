@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro_Usuario">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/white"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-53dp"
+        tools:layout_editor_absoluteY="-164dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="#FFFFFF">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="393dp"
+                android:layout_height="185dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:background="#FFFFFF"
+                app:srcCompat="@drawable/login" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="368dp"
+                android:layout_height="68dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="190dp"
+                android:text="Registrate y se parte de nosotros"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:backgroundTint="@color/white">
+
+            <TextView
+                android:id="@+id/nombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="20dp"
+                android:text="Nombre"
+                android:textColor="#595454"
+                android:textSize="15dp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/edtNombre"
+                android:layout_width="253dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/common_google_signin_btn_text_light_normal_background"
+                android:ems="10"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="110dp"
+                android:text="Email"
+                android:textColor="#595454"
+                android:textSize="15dp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/edtEmailnuevo"
+                android:layout_width="253dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="130dp"
+                android:background="@drawable/common_google_signin_btn_text_light_normal_background"
+                android:ems="10"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/yatienes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="450dp"
+                android:text="¿Ya tienes cuenta?" />
+
+            <TextView
+                android:id="@+id/Crearcuenta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="450dp"
+                android:clickable="true"
+                android:text="Iniciar Sesión"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/contraseña1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="195dp"
+                android:text="Contraseña"
+                android:textColor="#595454"
+                android:textSize="15dp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/edtPasswordnuevo1"
+                android:layout_width="257dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="215dp"
+                android:background="@drawable/common_google_signin_btn_text_light_normal_background"
+                android:ems="10"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:id="@+id/contraseña2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="280dp"
+                android:text="Confirmar Contraseña"
+                android:textColor="#595454"
+                android:textSize="15dp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/edtPasswordnuevo2"
+                android:layout_width="261dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="300dp"
+                android:background="@drawable/common_google_signin_btn_text_light_normal_background"
+                android:ems="10"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/btnCrearcuenta"
+                android:layout_width="177dp"
+                android:layout_height="59dp"
+                android:layout_marginLeft="115dp"
+                android:layout_marginTop="370dp"
+                android:backgroundTint="#2196F3"
+                android:text="Registrarse"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
